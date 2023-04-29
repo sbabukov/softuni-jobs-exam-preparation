@@ -10,7 +10,7 @@ single-job.php
 		
 
 	<?php endwhile; ?>
-	<?php var_dump(get_the_ID()); ?>
+	<!-- <?php var_dump(get_the_ID()); ?> -->
 	<!--  -->
 	<?php softuni_update_jobs_views_count( get_the_ID()); ?>
 <?php endif; ?>
