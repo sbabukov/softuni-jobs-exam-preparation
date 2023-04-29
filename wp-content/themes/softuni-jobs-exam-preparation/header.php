@@ -16,7 +16,7 @@
 <!-- Викане на енкюнването на стиловете -->
 <?php wp_head(); ?>
 
-<body>
+<body <?php body_class(); ?>>
 	<div class="site-wrapper">
 		<header class="site-header">
 			<?php if ( is_home() ): ?>

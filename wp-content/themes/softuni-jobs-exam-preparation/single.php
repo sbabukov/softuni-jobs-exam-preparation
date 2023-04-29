@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-INDEX
+
 <ul class="jobs-listing">
 
 <?php if (have_posts()): ?>
@@ -7,7 +7,7 @@ INDEX
 		<!-- content -->
 		
 		<!-- call template-part job-item, 'template-parts/job', 'item', template-parts is name of folder -->
-		<?php get_template_part( 'template-parts/job', 'item' )?>
+		<?php get_template_part( 'template-parts/single-post', 'item' )?>
 
 	<?php endwhile; ?>
 
